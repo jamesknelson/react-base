@@ -1,0 +1,33 @@
+{
+  "name": "react-base",
+  "version": "0.2.0",
+  "description": "Higher order component to handle merging callbacks, prefixing classnames and props passthrough.",
+  "main": "lib/base.js",
+  "scripts": {
+    "compile": "babel --stage 0 -d lib/ src/",
+    "prepublish": "npm run compile"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jamesknelson/react-base.git"
+  },
+  "keywords": [
+    "react",
+    "component",
+    "base",
+    "decorator",
+    "decorators",
+    "classes",
+    "callbacks",
+    "props"
+  ],
+  "author": "James K Nelson <james@jamesknelson.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jamesknelson/react-base/issues"
+  },
+  "homepage": "https://github.com/jamesknelson/react-base#readme",
+  "dependencies": {
+    "invariant": "^2.1.0"
+  }
+}
