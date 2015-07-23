@@ -28,6 +28,9 @@
   },
   "homepage": "https://github.com/jamesknelson/react-base#readme",
   "dependencies": {
-    "invariant": "^2.1.0"
+    "invariant": "^2.1.0",
+    "react-c": "^0.2.0",
+    "react-callback-register": "^0.1.0",
+    "react-passthrough": "^0.1.0"
   }
 }
